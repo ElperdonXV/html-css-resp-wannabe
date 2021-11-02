@@ -92,10 +92,28 @@ img {
   }
 
   img{
-    height: 100px;
+    max-width: 30%;
+    height: auto;
   }
 
   #lezioni h3{
     margin: 0 auto;
   }
+
+  #steps{
+    padding: 0.8em;
+  }
+
+  .row{
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
 }
